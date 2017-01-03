@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://canvas.instructure.com/xsd/cccv1p0" identifier="f8b0ce5763b13dddad8ac77700ffe54d" xsi:schemaLocation="http://canvas.instructure.com/xsd/cccv1p0 http://canvas.instructure.com/xsd/cccv1p0.xsd">
+  <title>Ima Survey</title>
+  <description>&lt;p&gt;howdy survey&lt;/p&gt;&lt;p&gt;howdy instructions&lt;/p&gt;</description>
+  <points_possible>0.0</points_possible>
+  <quiz_type>survey</quiz_type>
+  <available>true</available>
+  <assignment identifier="7c003b8dd34d8d1c8712c1921064d5be">
+    <title>Ima Survey</title>
+    <assignment_group_identifierref>caab17502570cbd813e3a7aa674f330b</assignment_group_identifierref>
+    <quiz_identifierref>f8b0ce5763b13dddad8ac77700ffe54d</quiz_identifierref>
+    <workflow_state>published</workflow_state>
+    <points_possible>0.0</points_possible>
+    <grading_type>points</grading_type>
+    <submission_types>online_quiz</submission_types>
+    <position>1</position>
+  </assignment>
+</quiz>

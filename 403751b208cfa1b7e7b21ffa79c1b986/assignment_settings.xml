@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assignment xmlns="http://canvas.instructure.com/xsd/cccv1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="403751b208cfa1b7e7b21ffa79c1b986" xsi:schemaLocation="http://canvas.instructure.com/xsd/cccv1p0 http://canvas.instructure.com/xsd/cccv1p0.xsd">
+  <title>Ima Test</title>
+  <assignment_group_identifierref>57a466147eca602bc763eacec51d74c1</assignment_group_identifierref>
+  <quiz_identifierref>b4b003ede98adc5707b38ef7a7581faf</quiz_identifierref>
+  <workflow_state>published</workflow_state>
+  <points_possible>20.0</points_possible>
+  <grading_type>points</grading_type>
+  <submission_types>online_quiz</submission_types>
+  <position>1</position>
+</assignment>

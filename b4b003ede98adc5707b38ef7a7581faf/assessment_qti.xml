@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <assessment title="Ima Test" ident="b4b003ede98adc5707b38ef7a7581faf">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry/>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <item title="What is 1 + 1?" ident="87fa3c9530fa23f9d3235372454e48f4">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>10.0</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;Well what is 1 + 1?&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="c53d4299fd224e74a6aa910b35d174a6">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;5&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="b5b46a81d3c8441092fa5182dc24fd0c">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;2&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7b577a5db1fc4bcf8f440552dbb0c695">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;6&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="a5237af710814c6d816826c9543a1b85">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;7&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">c53d4299fd224e74a6aa910b35d174a6</varequal>
+            </conditionvar>
+            <setvar varname="SCORE" action="Set">0</setvar>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">b5b46a81d3c8441092fa5182dc24fd0c</varequal>
+            </conditionvar>
+            <setvar varname="SCORE" action="Set">100</setvar>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">7b577a5db1fc4bcf8f440552dbb0c695</varequal>
+            </conditionvar>
+            <setvar varname="SCORE" action="Set">0</setvar>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">a5237af710814c6d816826c9543a1b85</varequal>
+            </conditionvar>
+            <setvar varname="SCORE" action="Set">0</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_correct_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Great stuff!&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+        <itemfeedback ident="general_incorrect_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Not so great!&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item title="What is 2 + 2?" ident="d1d9ecfd12876ed1e88346c3436b0f7e">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>10.0</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;And what is 2+2?&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="c008d39f11a7422fa7891985b6aff457">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;7&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1012f5b0f85d46f0ac6c2ed316a875b2">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;1&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="44f690924e164552b68247c3bc834850">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;5&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="73900a1d3bf54424804bb9e48116f343">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;4&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">c008d39f11a7422fa7891985b6aff457</varequal>
+            </conditionvar>
+            <setvar varname="SCORE" action="Set">0</setvar>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">1012f5b0f85d46f0ac6c2ed316a875b2</varequal>
+            </conditionvar>
+            <setvar varname="SCORE" action="Set">0</setvar>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">44f690924e164552b68247c3bc834850</varequal>
+            </conditionvar>
+            <setvar varname="SCORE" action="Set">0</setvar>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">73900a1d3bf54424804bb9e48116f343</varequal>
+            </conditionvar>
+            <setvar varname="SCORE" action="Set">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_correct_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Huzzah!&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+        <itemfeedback ident="general_incorrect_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Frowny :[&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+    </section>
+  </assessment>
+</questestinterop>

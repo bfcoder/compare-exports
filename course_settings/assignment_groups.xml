@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assignmentGroups xmlns="http://canvas.instructure.com/xsd/cccv1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://canvas.instructure.com/xsd/cccv1p0 http://canvas.instructure.com/xsd/cccv1p0.xsd">
+  <assignmentGroup identifier="57a466147eca602bc763eacec51d74c1">
+    <title>Test</title>
+    <position/>
+    <group_weight/>
+    <rules/>
+  </assignmentGroup>
+  <assignmentGroup identifier="caab17502570cbd813e3a7aa674f330b">
+    <title>Survey</title>
+    <position/>
+    <group_weight/>
+    <rules/>
+  </assignmentGroup>
+</assignmentGroups>

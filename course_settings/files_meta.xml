@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fileMeta xmlns="http://canvas.instructure.com/xsd/cccv1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://canvas.instructure.com/xsd/cccv1p0 http://canvas.instructure.com/xsd/cccv1p0.xsd">
+  <files>
+    <file identifier="wimba_va.txt">
+      <hidden>false</hidden>
+    </file>
+    <file identifier="wimba_vp.txt">
+      <hidden>false</hidden>
+    </file>
+    <file identifier="wimba_vb.txt">
+      <hidden>false</hidden>
+    </file>
+    <file identifier="wimba_pc.txt">
+      <hidden>false</hidden>
+    </file>
+    <file identifier="imsmanifest.xml">
+      <hidden>false</hidden>
+    </file>
+    <file identifier=".bb-package-info">
+      <hidden>false</hidden>
+    </file>
+    <file identifier=".bb-package-sig">
+      <hidden>false</hidden>
+    </file>
+  </files>
+</fileMeta>

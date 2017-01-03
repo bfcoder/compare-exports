@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="man00001" xmlns:bb="http://www.blackboard.com/content-packaging/"><organizations
+   default="toc00001"><organization identifier="toc00001"><item identifier="itm00001"
+    identifierref="res00005"><title>Home Page</title></item><item identifier="itm00002"
+     identifierref="res00006"><title>Information</title><item identifier="itm00008"
+    identifierref="res00017"><title>--TOP--</title></item></item><item identifier="itm00003"
+     identifierref="res00007"><title>Content</title><item identifier="itm00009"
+      identifierref="res00018"><title>--TOP--</title><item identifier="itm00010"
+      identifierref="res00019"><title>Ima Survey</title></item><item identifier="itm00011"
+    identifierref="res00020"><title>Ima Test</title></item></item></item><item identifier="itm00004"
+    identifierref="res00008"><title>Discussions</title></item><item identifier="itm00005"
+    identifierref="res00009"><title>Groups</title></item><item identifier="itm00006"
+    identifierref="res00010"><title>Tools</title></item><item identifier="itm00007"
+   identifierref="res00011"><title>Help</title></item></organization></organizations><resources><resource
+   bb:file="res00001.dat" bb:title="Greyson\''s course" identifier="res00001" type="course/x-bb-coursesetting"
+   xml:base="res00001"/><resource bb:file="res00002.dat" bb:title="Learning Standard Sub Document Associations"
+   identifier="res00002" type="course/x-bb-subdocassociation" xml:base="res00002"/><resource bb:file="res00003.dat"
+   bb:title="Course Application Settings" identifier="res00003" type="course/x-bb-courseappsetting"
+   xml:base="res00003"/><resource bb:file="res00004.dat" bb:title="Course Navigation Settings" identifier="res00004"
+   type="course/x-bb-coursenavsetting" xml:base="res00004"/><resource bb:file="res00005.dat" bb:title="Home Page"
+   identifier="res00005" type="course/x-bb-coursetoc" xml:base="res00005"/><resource bb:file="res00006.dat"
+   bb:title="Information" identifier="res00006" type="course/x-bb-coursetoc" xml:base="res00006"/><resource
+   bb:file="res00007.dat" bb:title="Content" identifier="res00007" type="course/x-bb-coursetoc"
+   xml:base="res00007"/><resource bb:file="res00008.dat" bb:title="Discussions" identifier="res00008"
+   type="course/x-bb-coursetoc" xml:base="res00008"/><resource bb:file="res00009.dat" bb:title="Groups"
+   identifier="res00009" type="course/x-bb-coursetoc" xml:base="res00009"/><resource bb:file="res00010.dat"
+   bb:title="Tools" identifier="res00010" type="course/x-bb-coursetoc" xml:base="res00010"/><resource
+   bb:file="res00011.dat" bb:title="Help" identifier="res00011" type="course/x-bb-coursetoc"
+   xml:base="res00011"/><resource bb:file="res00012.dat" bb:title="Content Handler Data" identifier="res00012"
+   type="course/x-bb-contenthandler" xml:base="res00012"/><resource bb:file="res00013.dat" bb:title="Ima Test"
+   identifier="res00013" type="assessment/x-bb-qti-test" xml:base="res00013"/><resource bb:file="res00014.dat"
+   bb:title="Ima Survey" identifier="res00014" type="assessment/x-bb-qti-survey" xml:base="res00014"/><resource
+   bb:file="res00015.dat" bb:title="Assessment Creation Settings" identifier="res00015"
+   type="course/x-bb-courseassessmentcreationsettings" xml:base="res00015"/><resource bb:file="res00016.dat"
+   bb:title="Conferences" identifier="res00016" type="resource/x-bb-conference" xml:base="res00016"/><resource
+   bb:file="res00017.dat" bb:title="--TOP--" identifier="res00017" type="resource/x-bb-document"
+   xml:base="res00017"/><resource bb:file="res00018.dat" bb:title="--TOP--" identifier="res00018"
+   type="resource/x-bb-document" xml:base="res00018"/><resource bb:file="res00019.dat" bb:title="Ima Survey"
+   identifier="res00019" type="resource/x-bb-document" xml:base="res00019"/><resource bb:file="res00020.dat"
+   bb:title="Ima Test" identifier="res00020" type="resource/x-bb-document" xml:base="res00020"/><resource
+   bb:file="res00021.dat" bb:title="Course Module Pages" identifier="res00021" type="course/x-bb-coursemodulepages"
+   xml:base="res00021"/><resource bb:file="res00022.dat" bb:title="LearnRubrics" identifier="res00022"
+   type="course/x-bb-rubrics" xml:base="res00022"/><resource bb:file="res00023.dat" bb:title="Gradebook"
+   identifier="res00023" type="course/x-bb-gradebook" xml:base="res00023"/><resource bb:file="res00024.dat"
+   bb:title="Course Assessment" identifier="res00024" type="course/x-bb-courseassessment" xml:base="res00024"/><resource
+   bb:file="res00025.dat" bb:title="Course Assessment" identifier="res00025" type="course/x-bb-courseassessment"
+   xml:base="res00025"/><resource bb:file="res00026.dat" bb:title="Home Page" identifier="res00026"
+   type="resource/x-bb-link" xml:base="res00026"/><resource bb:file="res00027.dat" bb:title="Ima Test"
+   identifier="res00027" type="resource/x-bb-link" xml:base="res00027"/><resource bb:file="res00028.dat"
+   bb:title="Ima Survey" identifier="res00028" type="resource/x-bb-link" xml:base="res00028"/><resource
+   bb:file="res00029.dat" bb:title="CourseRubricAssociation" identifier="res00029"
+   type="course/x-bb-crsrubricassocation" xml:base="res00029"/><resource bb:file="res00030.dat" bb:title="collab"
+   identifier="res00030" type="resource/x-x-wimba" xml:base="res00030"><file href="wimba_va.txt"/></resource><resource
+   bb:file="res00031.dat" bb:title="greyson-101" identifier="res00031" type="resource/x-mhhe-course-cx"
+   xml:base="res00031"/><resource bb:file="res00032.dat" bb:title="BB_EWS_RULE_" identifier="res00032"
+   type="resource/x-bb-retention" xml:base="res00032"/><resource bb:file="res00033.dat" bb:title="collab"
+   identifier="res00033" type="resource/x-x-vpresentation-wimba" xml:base="res00033"><file
+   href="wimba_vp.txt"/></resource><resource bb:file="res00034.dat" bb:title="collab" identifier="res00034"
+   type="resource/x-x-vboard-wimba" xml:base="res00034"><file href="wimba_vb.txt"/></resource><resource
+   bb:file="res00035.dat" bb:title="collab" identifier="res00035" type="resource/x-x-podcaster-wimba"
+    xml:base="res00035"><file href="wimba_pc.txt"/></resource></resources></manifest>

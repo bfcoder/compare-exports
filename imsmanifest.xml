@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imsccv1p1/imscp_v1p1" xmlns:lom="http://ltsc.ieee.org/xsd/imsccv1p1/LOM/resource" xmlns:lomimscc="http://ltsc.ieee.org/xsd/imsccv1p1/LOM/manifest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="_447545_1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsccv1p1/imscp_v1p1 http://www.imsglobal.org/profile/cc/ccv1p1/ccv1p1_imscp_v1p2_v1p0.xsd http://ltsc.ieee.org/xsd/imsccv1p1/LOM/resource http://www.imsglobal.org/profile/cc/ccv1p1/LOM/ccv1p1_lomresource_v1p0.xsd http://ltsc.ieee.org/xsd/imsccv1p1/LOM/manifest http://www.imsglobal.org/profile/cc/ccv1p1/LOM/ccv1p1_lommanifest_v1p0.xsd">
+  <metadata>
+    <schema>IMS Common Cartridge</schema>
+    <schemaversion>1.1.0</schemaversion>
+    <lomimscc:lom>
+      <lomimscc:general>
+        <lomimscc:title>
+          <lomimscc:string>Greyson\''s course</lomimscc:string>
+        </lomimscc:title>
+      </lomimscc:general>
+      <lomimscc:rights>
+        <lomimscc:copyrightAndOtherRestrictions>
+          <lomimscc:value>no</lomimscc:value>
+        </lomimscc:copyrightAndOtherRestrictions>
+      </lomimscc:rights>
+    </lomimscc:lom>
+  </metadata>
+  <organizations>
+    <organization identifier="org_1" structure="rooted-hierarchy">
+      <item identifier="LearningModules">
+        <item identifier="_10669071_1">
+          <title>Ima Survey</title>
+          <item identifier="136e195d859f99c3ebe648d468e11a14" identifierref="_10669076_1">
+            <title>Ima Survey</title>
+          </item>
+          <item identifier="767328d84293b1739c734b60349f1285" identifierref="_10669074_1">
+            <title>Ima Test</title>
+          </item>
+        </item>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="_447545_1_settings" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="course_settings/canvas_export.txt">
+      <file href="course_settings/course_settings.xml"/>
+      <file href="course_settings/module_meta.xml"/>
+    </resource>
+    <resource href="web_resources/Imported/wimba_va.txt" type="webcontent" identifier="wimba_va.txt">
+      <file href="web_resources/Imported/wimba_va.txt"/>
+    </resource>
+    <resource href="web_resources/Imported/wimba_vp.txt" type="webcontent" identifier="wimba_vp.txt">
+      <file href="web_resources/Imported/wimba_vp.txt"/>
+    </resource>
+    <resource href="web_resources/Imported/wimba_vb.txt" type="webcontent" identifier="wimba_vb.txt">
+      <file href="web_resources/Imported/wimba_vb.txt"/>
+    </resource>
+    <resource href="web_resources/Imported/wimba_pc.txt" type="webcontent" identifier="wimba_pc.txt">
+      <file href="web_resources/Imported/wimba_pc.txt"/>
+    </resource>
+    <resource href="web_resources/Imported/imsmanifest.xml" type="webcontent" identifier="imsmanifest.xml">
+      <file href="web_resources/Imported/imsmanifest.xml"/>
+    </resource>
+    <resource href="web_resources/Imported/.bb-package-info" type="webcontent" identifier=".bb-package-info">
+      <file href="web_resources/Imported/.bb-package-info"/>
+    </resource>
+    <resource href="web_resources/Imported/.bb-package-sig" type="webcontent" identifier=".bb-package-sig">
+      <file href="web_resources/Imported/.bb-package-sig"/>
+    </resource>
+    <resource href="403751b208cfa1b7e7b21ffa79c1b986/assignment-ima-test.html" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" identifier="403751b208cfa1b7e7b21ffa79c1b986">
+      <file href="403751b208cfa1b7e7b21ffa79c1b986/assignment-ima-test.html"/>
+      <file href="403751b208cfa1b7e7b21ffa79c1b986/assignment_settings.xml"/>
+    </resource>
+    <resource href="7c003b8dd34d8d1c8712c1921064d5be/assignment-ima-survey.html" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" identifier="7c003b8dd34d8d1c8712c1921064d5be">
+      <file href="7c003b8dd34d8d1c8712c1921064d5be/assignment-ima-survey.html"/>
+      <file href="7c003b8dd34d8d1c8712c1921064d5be/assignment_settings.xml"/>
+    </resource>
+    <resource type="imsqti_xmlv1p2/imscc_xmlv1p1/assessment" identifier="b4b003ede98adc5707b38ef7a7581faf">
+      <file href="b4b003ede98adc5707b38ef7a7581faf/assessment_qti.xml"/>
+      <dependency identifierref="b4b003ede98adc5707b38ef7a7581faf_meta"/>
+    </resource>
+    <resource href="b4b003ede98adc5707b38ef7a7581faf/assessment_meta.xml" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" identifier="b4b003ede98adc5707b38ef7a7581faf_meta">
+      <file href="b4b003ede98adc5707b38ef7a7581faf/assessment_meta.xml"/>
+      <file href="non_cc_assessments/b4b003ede98adc5707b38ef7a7581faf.xml.qti"/>
+    </resource>
+    <resource type="imsqti_xmlv1p2/imscc_xmlv1p1/assessment" identifier="f8b0ce5763b13dddad8ac77700ffe54d">
+      <file href="f8b0ce5763b13dddad8ac77700ffe54d/assessment_qti.xml"/>
+      <dependency identifierref="f8b0ce5763b13dddad8ac77700ffe54d_meta"/>
+    </resource>
+    <resource href="f8b0ce5763b13dddad8ac77700ffe54d/assessment_meta.xml" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" identifier="f8b0ce5763b13dddad8ac77700ffe54d_meta">
+      <file href="f8b0ce5763b13dddad8ac77700ffe54d/assessment_meta.xml"/>
+      <file href="non_cc_assessments/f8b0ce5763b13dddad8ac77700ffe54d.xml.qti"/>
+    </resource>
+  </resources>
+</manifest>

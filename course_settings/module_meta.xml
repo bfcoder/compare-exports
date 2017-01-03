@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules xmlns="http://canvas.instructure.com/xsd/cccv1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://canvas.instructure.com/xsd/cccv1p0 http://canvas.instructure.com/xsd/cccv1p0.xsd">
+  <module identifier="_10669071_1">
+    <title>Ima Survey</title>
+    <workflow_state>published</workflow_state>
+    <position>0</position>
+    <items>
+      <item identifier="136e195d859f99c3ebe648d468e11a14">
+        <content_type>Quizzes::Quiz</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Ima Survey</title>
+        <position>0</position>
+        <indent/>
+        <identifierref>_10669076_1</identifierref>
+      </item>
+      <item identifier="767328d84293b1739c734b60349f1285">
+        <content_type>Quizzes::Quiz</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Ima Test</title>
+        <position>1</position>
+        <indent/>
+        <identifierref>_10669074_1</identifierref>
+      </item>
+    </items>
+    <prerequisites/>
+    <completionRequirements/>
+  </module>
+</modules>
