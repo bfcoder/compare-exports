@@ -5,7 +5,7 @@
     <workflow_state>published</workflow_state>
     <position>0</position>
     <items>
-      <item identifier="136e195d859f99c3ebe648d468e11a14">
+      <item identifier="d468ae913eb9a54c8c4ba2694db5bc33">
         <content_type>Quizzes::Quiz</content_type>
         <workflow_state>active</workflow_state>
         <title>Ima Survey</title>
@@ -13,7 +13,7 @@
         <indent/>
         <identifierref>_10669076_1</identifierref>
       </item>
-      <item identifier="767328d84293b1739c734b60349f1285">
+      <item identifier="174f995c09bfc86f7caf32b2a7cfeca1">
         <content_type>Quizzes::Quiz</content_type>
         <workflow_state>active</workflow_state>
         <title>Ima Test</title>

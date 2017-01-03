@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<quiz xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://canvas.instructure.com/xsd/cccv1p0" identifier="b4b003ede98adc5707b38ef7a7581faf" xsi:schemaLocation="http://canvas.instructure.com/xsd/cccv1p0 http://canvas.instructure.com/xsd/cccv1p0.xsd">
+<quiz xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://canvas.instructure.com/xsd/cccv1p0" identifier="ee6769f928eb51bd6c958a9a5c7d68ce" xsi:schemaLocation="http://canvas.instructure.com/xsd/cccv1p0 http://canvas.instructure.com/xsd/cccv1p0.xsd">
   <title>Ima Test</title>
   <description>&lt;p&gt;Test description&lt;/p&gt;&lt;p&gt;Test Instruction&lt;/p&gt;</description>
   <points_possible>20.0</points_possible>
   <quiz_type>assignment</quiz_type>
   <available>true</available>
-  <assignment identifier="403751b208cfa1b7e7b21ffa79c1b986">
+  <assignment identifier="645c284c0083ab387b58b771ce8e767b">
     <title>Ima Test</title>
-    <assignment_group_identifierref>57a466147eca602bc763eacec51d74c1</assignment_group_identifierref>
-    <quiz_identifierref>b4b003ede98adc5707b38ef7a7581faf</quiz_identifierref>
+    <assignment_group_identifierref>50718e8386702e5520fccd37eb0b8945</assignment_group_identifierref>
+    <quiz_identifierref>ee6769f928eb51bd6c958a9a5c7d68ce</quiz_identifierref>
     <workflow_state>published</workflow_state>
     <points_possible>20.0</points_possible>
     <grading_type>points</grading_type>

@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
-  <assessment title="Ima Test" ident="b4b003ede98adc5707b38ef7a7581faf">
+  <assessment title="Ima Test" ident="ee6769f928eb51bd6c958a9a5c7d68ce">
     <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>qmd_timelimit</fieldlabel>
+        <fieldentry/>
+      </qtimetadatafield>
       <qtimetadatafield>
         <fieldlabel>cc_maxattempts</fieldlabel>
         <fieldentry/>
       </qtimetadatafield>
     </qtimetadata>
     <section ident="root_section">
-      <item title="What is 1 + 1?" ident="87fa3c9530fa23f9d3235372454e48f4">
+      <item title="What is 1 + 1?" ident="02759318d9c23d8233708f7fe674650e">
         <itemmetadata>
           <qtimetadata>
             <qtimetadatafield>
@@ -100,7 +104,7 @@
           </flow_mat>
         </itemfeedback>
       </item>
-      <item title="What is 2 + 2?" ident="d1d9ecfd12876ed1e88346c3436b0f7e">
+      <item title="What is 2 + 2?" ident="0015652da74b7d4f3a28f8fcd82894cf">
         <itemmetadata>
           <qtimetadata>
             <qtimetadatafield>

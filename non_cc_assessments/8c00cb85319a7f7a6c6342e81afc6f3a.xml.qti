@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
-  <assessment title="Ima Survey" ident="f8b0ce5763b13dddad8ac77700ffe54d">
+  <assessment title="Ima Survey" ident="8c00cb85319a7f7a6c6342e81afc6f3a">
     <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>qmd_timelimit</fieldlabel>
+        <fieldentry/>
+      </qtimetadatafield>
       <qtimetadatafield>
         <fieldlabel>cc_maxattempts</fieldlabel>
         <fieldentry/>
       </qtimetadatafield>
     </qtimetadata>
     <section ident="root_section">
-      <item title="Explain to me." ident="06ef5c4229d01f6061088b47d34ba864">
+      <item title="Explain to me." ident="2b4b1f0ec85de7b3dbd6d54515efdc43">
         <itemmetadata>
           <qtimetadata>
             <qtimetadatafield>
@@ -48,7 +52,7 @@
           </respcondition>
         </resprocessing>
       </item>
-      <item title="Tell me about it." ident="e5b8d5c562675cea844e3faf93ef72dc">
+      <item title="Tell me about it." ident="393329d0355cdc6e76310e51c75c7a8f">
         <itemmetadata>
           <qtimetadata>
             <qtimetadatafield>
